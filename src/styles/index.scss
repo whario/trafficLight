@@ -11,3 +11,50 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+#trafficTop {
+    margin: auto;
+    display: block;
+    background: black;
+    width: 15px;
+    height: 100px;
+}
+#container {
+    margin: auto;
+    display: block;
+    background: black;
+    width: 150px;
+    height: 420px;
+    border-radius: 20px;
+    position: relative;
+}
+.red {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: red;
+    margin: 25px;
+    position: absolute;
+}
+.green{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: green;
+    margin: 25px;
+    position: absolute;
+    margin-top: 280px;
+}
+.yellow{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: yellow;
+    margin: 25px;
+    position: absolute;
+    margin-top:150px;
+    
+}
+
+#active{
+    box-shadow: 0 0 40px rgb(252, 210, 156);
+}
